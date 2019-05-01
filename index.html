@@ -2,72 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with coded decorative elements</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/styles.css" type="text/css">
 </head>
 <body>
+  <header>
+    <nav>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12">
+                  <img src="src/images/logo.svg" width="200">
+                  <button>Try It Free</button>
 
-  Try It Free
+              </div>
+          </div>
+      </div>
 
-  Build The Community Your Fans Will Love
+    </nav>
+  </header>
+  <section>
+    <div class="container center">
+        <img src="src/images/illustration-mockups.svg" width="50%">
+        <h2>Build The Community Your Fans Will Love</h2>
+        <p class="center">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine diiscussion.</p>
+        <button>Get Started For Free</button>
+    </div>
+  </section>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+  <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="src/images/illustration-your-users.svg" width="90%">
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <h3>Flowing Conversations</h3>
+            <p>Toffee chupa chups jelly gummies marzipan muffin tart marshmallow. Dessert halvah dragée powder soufflé. Gummies gingerbread bonbon gingerbread oat cake. Tart marzipan halvah.</p>
+            <h3>Grow Together</h3>
+            <p>Wafer lollipop macaroon jujubes chupa chups jelly-o bonbon gingerbread wafer. Caramels cupcake carrot cake dragée danish. Powder muffin wafer. Jujubes candy canes bonbon lollipop gingerbread sweet roll jujubes tiramisu sweet.</p>
+            <h3>Your Users</h3>
+            <p>Marshmallow cotton candy fruitcake bonbon wafer cake jujubes oat cake chocolate bar. Cheesecake tart danish macaroon sesame snaps marshmallow jelly beans. Chocolate cupcake marshmallow tart lollipop. Gummies croissant dessert topping.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  Get Started For Free
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. Think of 
-  the insightful conversations you miss out on with a feedback form. 
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, once 
-  signed in to your app, your users can start chatting immediately.
-
-  Try It Free
-
-  Fully featured 30-day free trial - no credit card required
-
-  Get Started For Free
-
-  &copy; Copyright 2019 Huddle. All rights reserved.
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  Subscribe
-
-  To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
-
-  Subscribe
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-10 col-md-8 col-md-offset-2">
+            <h2>Try It Free</h2>
+            <p>Fully featured 30-day free trial - no credit card required</p>
+            <button>Get Started For Free</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <div class="container">
+      <img src="src/images/logo.svg" width="200">
+      <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <ul>
+              <li>facebook</li>
+              <li>instagram</li>
+              <li>twitter</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <ul>
+              <li>About Us</li>
+              <li>Career</li>
+              <li>What We Do</li>
+              <li>Blog</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h4>Subscribe</h4>
+            <p>Cake jelly lemon drops. Pie apple pie tart halvah brownie tiramisu lollipop dragée chupa chups. Tiramisu apple pie cookie biscuit brownie dessert liquorice chupa chups jujubes. Tootsie roll tiramisu gummi bears caramels jujubes.</p>
+            <form>
+              <input name="name" type="text" value="Frank" /> <br /> 
+              <button type="submit" value="Submit">Subscribe</button>
+            </form>
+
+          </div>
+      </div>
+
+    </div>
   </footer>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
